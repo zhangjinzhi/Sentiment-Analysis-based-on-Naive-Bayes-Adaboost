@@ -10,12 +10,12 @@ These instructions will let you apply the project demo and running on your machi
 
 Following tools and packages are required to run this project demo.
 
-####Programming Language
+#### Programming Language
 ```
 Python 3
 ```
 
-####Import Packages
+#### Import Packages
 ```
 numpy
 random
@@ -26,33 +26,33 @@ textblob
 
 ### Installing on Windows 10
 
-####Python Installation
+#### Python Installation
 1. Open the <https://www.python.org/downloads/windows/>
 2. Download the correct installation package(32 or 64 bits) for Python 3 (Latest Python 3 Release is OK)
 3. Execute the installation package and finish the installation (remember to select the item "Add Python x.x to PATH")
 
-####Package Installation
+#### Package Installation
 For the *re* and *random* are included in original Python, we only need to install the *Numpy*, *NLTK* and *TextBlob*.
 
-#####Numpy
+##### Numpy
 1. Open the <http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy>
 2. Download the correct *Numpy* wheel for your Python version
 3. Go the path of the wheel in cmd and perform the installtion
 ```
 >pip3 install numpy-x.xx.x+mkl-cpxx-cpxxm-win(32 or 64 bits).whl
 ```
-#####NLTK
+##### NLTK
 ```
 >pip3 install nltk
 ```
-#####TextBlob
+##### TextBlob
 ```
 >pip3 install textblob
 ```
 
 ### Installing on Mac OS X
 
-####Python Installation
+#### Python Installation
 If there is no HomeBrew in your Mac, just install it in termianl.
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -63,30 +63,30 @@ $ brew search python
 $ brew install python3
 ```
 
-####Package Installation
+#### Package Installation
 For the *re* and *random* are included in original Python, we only need to install the *Numpy*, *NLTK* and *TextBlob*.
 
-#####Numpy
+##### Numpy
 ```
 $ pip3 install numpy
 ```
-#####NLTK
+##### NLTK
 ```
 $ pip3 install nltk
 ```
-#####TextBlob
+##### TextBlob
 ```
 $ pip3 install textblob
 ```
 
 ## Data Preporcess
 
-###Windows 10 
+### Windows 10 
 ``` 
 >python data_transfer.py 
 >python give_label.py 
 ```
-###Mac OS X 
+### Mac OS X 
 ``` 
 $ python3 data_transfer.py 
 $ python3 give_label.py 
@@ -129,13 +129,13 @@ def loadContentsLabels(fileName):
 ```
 ### Running the Simple Bayes Model
 You can perform the model by going the path of the folder *SimpleBayes_TFIDF* in terminal and running the main.py.
-####Windows 10
+#### Windows 10
 
 ```
 >cd X:\xxx\xxx\SimpleBayes_TFIDF
 >python main.py
 ```
-####Mac OS X
+#### Mac OS X
 ```
 $ cd /Users/xxx/xxx/SimpleBayes_TFIDF
 $ python3 main.py
@@ -171,13 +171,13 @@ def trainningErrorRate():
 ### Running the AdaBoost Version Bayes Model
 
 You can perform the model by going the path of the folder *Adaboost_SimpleBayes_TFIDF* in terminal and running the main.py.
-####Windows 10
+#### Windows 10
 
 ```
 >cd X:\xxx\xxx\Adaboost_SimpleBayes_TFIDF
 >python main.py
 ```
-####Mac OS X
+#### Mac OS X
 ```
 $ cd /Users/xxx/xxx/Adaboost_SimpleBayes_TFIDF
 $ python3 main.py
@@ -213,4 +213,6 @@ For the source of test set, you can change it by the variable *filename* in main
 def AdaboostTrainingWithDS(iterateNum):
     filename = '../data/SMS.txt'
 ```
+
+
 
