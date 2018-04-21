@@ -42,8 +42,11 @@ def simpleTest():
     filename = '../data/test.txt'
     contents, labels = load_save_data.loadContentsLabels(filename)
     contents_for_TFIDF = load_save_data.loadContents_for_TFIDF(filename)
-    label = training_model.classify(BOW, proContentNeg,
-                                  proContentPos, proNeg, contents[0],contents_for_TFIDF)
+    IDF_list = process_data.IDF(BOW, contents)
+    # print(contents[0])
+    # print(contents_for_TFIDF)
+    # print(IDF_list)
+    label = training_model.classify(BOW, proContentNeg,proContentPos, proNeg, contents[0],IDF_list)
     print(label)
 
 
