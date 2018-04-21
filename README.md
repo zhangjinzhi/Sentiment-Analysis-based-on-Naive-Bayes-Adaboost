@@ -246,9 +246,8 @@ def AdaboostTrainingWithDS(iterateNum):
 <div align="center">
 <img src="https://raw.githubusercontent.com/zhangjinzhi/Sentiment-Analysis-based-on-Naive-Bayes-Adaboost/master/images/Github.jpg" height="30%" width="30%">
 <img src="https://raw.githubusercontent.com/zhangjinzhi/Sentiment-Analysis-based-on-Naive-Bayes-Adaboost/master/images/Youtube.jpg" height="30%" width="30%">
-<img src="https://raw.githubusercontent.com/zhangjinzhi/Sentiment-Analysis-based-on-Naive-Bayes-Adaboost/master/images/Demo%20Video.png" height="35%" width="35%">
+<img src="https://raw.githubusercontent.com/zhangjinzhi/Sentiment-Analysis-based-on-Naive-Bayes-Adaboost/master/images/Demo%20Video.png" height="29%" width="29%">
 </div>
 
-[Github](https://github.com/zhangjinzhi/Sentiment-Analysis-based-on-Naive-Bayes-Adaboost)
-[Youtube](https://www.youtube.com/watch?v=ZWTm23z2cxc)
+[Github](https://github.com/zhangjinzhi/Sentiment-Analysis-based-on-Naive-Bayes-Adaboost    [Youtube](https://www.youtube.com/watch?v=ZWTm23z2cxc)
 [Demo Video](https://drive.google.com/drive/folders/1QuY5c65LM5mtMW9iWpW0mscyIRZV53rk?usp=sharing)
