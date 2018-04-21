@@ -22,6 +22,10 @@ random
 re
 nltk
 textblob
+time
+tweepy
+os
+sys
 ```
 
 ### Installing on Windows 10
@@ -79,7 +83,32 @@ $ pip3 install nltk
 $ pip3 install textblob
 ```
 
-## Data Preprocess
+## Data Source (No need to run again in this demo)
+
+For more details about twitter data crawling api, please refer to [Twitter Developer Docs](https://developer.twitter.com/en/docs/tweets/search/overview)
+
+###  Windows 10 
+
+``` 
+>python get_tweets [user] [datatype] [nums_line] [nums_file] 
+```
+
+`e.g. >python get_tweets Tom hist 100 3`
+
+which means use the auth key of **Tom** to get **historical** data, then write these data to the **3** files with **100** lines per file.
+
+###  Mac OS X 
+``` 
+$ python3 get_tweets [user] [datatype] [nums_line] [nums_file] 
+```
+
+`e.g. $ python3 get_tweets Tom hist 100 3`
+
+which means use the auth key of **Tom** to get **historical** data, then write these data to the **3** files with **100** lines per file.
+
+As the data has been prepared in the folder 'data', this step can be skip in this demo.
+
+## Data Preprocess (No need to run again in this demo)
 
 ### Windows 10 
 ``` 
