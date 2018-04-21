@@ -79,7 +79,7 @@ $ pip3 install nltk
 $ pip3 install textblob
 ```
 
-## Data Preporcess
+## Data Preprocess
 
 ### Windows 10 
 ``` 
