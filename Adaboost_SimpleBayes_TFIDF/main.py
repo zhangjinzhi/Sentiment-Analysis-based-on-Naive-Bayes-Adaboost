@@ -1,5 +1,3 @@
-#!/usr/bin/python2.7
-# _*_ coding: utf-8 _*_
 import numpy as np
 import process_data
 import load_save_data
