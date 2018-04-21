@@ -95,8 +95,8 @@ def simpleTest():
     filename = '../data/test.txt'
     contents, labels = load_save_data.loadContentsLabels(filename)
     testWordsMarkedArray = process_data.transferContentToVector(BOW, contents[0])
-    ps, ph, label = training_model.classify(
-            proContentNeg, proContentPos, trainDS, proNeg, testWordsMarkedArray)
+    IDF_list = process_data.IDF(BOW, contents)
+    ps, ph, label = training_model.classify(proContentNeg, proContentPos, trainDS, proNeg, testWordsMarkedArray,IDF_list)
     print(label)
 
 
