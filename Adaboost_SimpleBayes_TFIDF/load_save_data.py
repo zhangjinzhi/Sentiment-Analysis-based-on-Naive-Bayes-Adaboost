@@ -75,7 +75,7 @@ def getTrainAdaboostInfo():
     """
     trainDS = np.loadtxt('trainDS.txt', delimiter='\t')
     trainMinErrorRate = np.loadtxt('trainMinErrorRate.txt', delimiter='\t')
-    BOW = boostNaiveBayes.getBOW('BOW.txt')
+    BOW = loadBOW('BOW.txt')
     proContentNeg = np.loadtxt('proContentNeg.txt', delimiter='\t')
     proContentPos = np.loadtxt('proContentPos.txt', delimiter='\t')
     proNeg = np.loadtxt('proNeg.txt', delimiter='\t')
